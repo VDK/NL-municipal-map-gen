@@ -13,7 +13,7 @@ header( "Content-type: image/svg+xml" );
 <?php
 
 // Create connection
-// $con=mysqli_connect("localhost","root","","test");
+$con=mysqli_connect("localhost","root","","test");
 // Check connection
 if (mysqli_connect_errno($con)) { echo "Failed to connect to MySQL: " . mysqli_connect_error(); }
 
