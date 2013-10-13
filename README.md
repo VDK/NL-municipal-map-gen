@@ -4,7 +4,7 @@ NL-municipal-map-gen
 A generator that colors the individual municipalities of the Netherlands based on their status in a SQL table.
 
 <h3>How to use</h3>
-* Import [SQL data](https://github.com/VDK/NL-municipal-map-gen/blob/master/data.sql) onto your database.
+* Import [SQL data](https://github.com/VDK/NL-municipal-map-gen/blob/master/data.sql) into your database.
 * Change [database settings in index.php](https://github.com/VDK/NL-municipal-map-gen/blob/master/index.php#L16).
 * Upload [index.php](https://github.com/VDK/NL-municipal-map-gen/blob/master/index.php) and [map.xml](https://github.com/VDK/NL-municipal-map-gen/blob/master/map.xml) to your server.
 * Specify the colors you'd like to use in the database in the table *&#95;status&#95;to&#95;color*, specify a municipal status in *&#95;progress*, there is no GUI for this.
