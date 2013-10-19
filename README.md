@@ -1,7 +1,7 @@
 NL-municipal-map-gen
 ====================
 
-A generator that colors the individual municipalities of the Netherlands based on their status in a SQL table. [See it in action](veradekok.nl/WLM/kaart)!
+A generator that colors the individual municipalities of the Netherlands based on their status in a SQL table. [See it in action](http://veradekok.nl/WLM/kaart)!
 
 <h3>How to use</h3>
 * Import [SQL data](https://github.com/VDK/NL-municipal-map-gen/blob/master/data.sql) into your database.
